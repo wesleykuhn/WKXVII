@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Wkxvii.Abstractions.Dao</id>
+        <version>1.0</version>
+        <description>A class library wich contains dao abstractions for .NET MAUI.</description>
+        <authors>wkxvii</authors>
+        <license type="expression">MIT</license>
+    </metadata>
+</package>
