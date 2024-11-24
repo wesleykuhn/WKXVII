@@ -5,7 +5,7 @@ static char? MainMenu()
 {
     Console.WriteLine("----------------------------------------");
     Console.WriteLine("1. Paste JSON text.");
-    Console.WriteLine("2. Select a file to extract.");
+    Console.WriteLine("2. Put JSON file full path.");
     var typed = Console.ReadKey();
     if (typed.KeyChar != '1' && typed.KeyChar != '2')
     {
@@ -51,7 +51,7 @@ static Theme? HandleJsonPaste()
 static Theme? HandleFileSelect()
 {
     Console.Clear();
-    Console.WriteLine("Paste JSON text:");
+    Console.WriteLine("Paste the JSON file full path:");
 
     var json = Console.ReadLine();
     if (string.IsNullOrWhiteSpace(json))
